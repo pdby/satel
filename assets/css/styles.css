@@ -57,17 +57,9 @@
   }
 }
 
-@media (min-width: 768px) {
-  .model-t {
-    width: 65%;
-    height: auto;
-  }
-}
-
 @media (min-width: 300px) {
   .model-t {
-    width: 85%;
-    height: auto;
+    width: 76%;
   }
 }
 
