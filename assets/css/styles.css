@@ -67,3 +67,7 @@
   width: 340px;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
