@@ -43,3 +43,31 @@
   font-weight: 83;
 }
 
+@media (min-width: 576px) {
+  #model-t-front {
+    width: 512px;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #model-t-front {
+    width: 900px;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .model-t {
+    width: 65%;
+    height: auto;
+  }
+}
+
+@media (min-width: 300px) {
+  .model-t {
+    width: 85%;
+    height: auto;
+  }
+}
+
