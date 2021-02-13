@@ -43,16 +43,11 @@
             <div class="row" style="color: rgb(255,255,255);background: #000000;">
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                     <!-- Start: Intro -->
-                    <div class="intro">
-                        <h1 class="text-center">Az oldalról és a kitalált cégről<br></h1><img class="img-fluid" src="/assets/img/about.jpg?h=03bc6a1163bc55cd98337325e6261330"></div>
+                    <div class="text-center intro">
+                        <h1 class="text-center">Vásárlás</h1><img class="img-fluid" src="/assets/img/Phone%20front.png?h=cc3ca8992097038bd7f452d5cda0faaf" style="width: 239px;"></div>
                     <!-- End: Intro -->
                     <!-- Start: Text -->
                     <div class="text">
-                        <p>Ez az oldal&nbsp;<strong><em>semmilyen formában</em></strong>&nbsp;nem áll kapcsolatban a&nbsp;<em>SATEL&nbsp;</em>cégekkel, bárminemű egyezés pusztán a véletlen műve. Ez egy nem hivatalos oldal, egy iskolai feladathoz készült.
-                            Az oldalon&nbsp;<strong><em><span style="text-decoration: underline;">NEM LEHET</span></em></strong>&nbsp;készülékeket vásárolni.<br></p>
-                        <p>Az oldalon felhasznált képi anyagok sajátok, kézileg készített a Figma nevű programban, vagy az&nbsp;<a href="https://unsplash.com/">unsplash.com</a>&nbsp;oldalról használtak.<br></p>
-                        <h2 style="color: rgb(255,255,255);">A készülékekről</h2>
-                        <p>Az oldalon felsorolt termékek nem léteznek, a képzelet szüleményei. Az elnevezés, a formavilág bárminemű egyezése a valóságban már megtalálható eszközökkel a véletlen műve.<br></p>
                         <figure></figure>
                     </div>
                     <!-- End: Text -->
@@ -61,15 +56,44 @@
         </div>
     </div>
     <!-- End: Article Clean -->
-    <footer class="text-white d-flex d-xl-flex flex-column justify-content-center align-items-center align-content-center justify-content-xl-center align-items-xl-center" style="background: #343a40;height: 80px;width: 100%;position: absolute;/*bottom: 0;*/">
-        <div class="d-flex d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
-            <p class="text-center" style="margin-bottom: 0;">Copyright ©<br></p>
-            <p class="text-center" style="margin-bottom: 0;">Szabó Máté 2021<br></p>
+    <!-- Start: Contact Form Clean -->
+    <div class="contact-clean" style="background: rgb(0,0,0);margin-top: -100px;">
+        <form method="post" style="background: rgb(52,58,64);" action="https://formspree.io/mateszabo2001@gmail.com" enctype="multipart/form-data">
+            <h2 class="text-center" style="color: rgb(255,255,255);">SATEL Model X vásárlása</h2>
+            <!-- Start: Success Example -->
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Vezetéknév" required="">
+                <!-- Start: The Error Message --><small class="form-text text-danger">Valós adatokat használjon!</small>
+                <!-- End: The Error Message -->
+            </div>
+            <!-- End: Success Example -->
+            <div class="form-group"><input class="form-control" type="text" placeholder="Keresztnév" required="">
+                <!-- Start: The Error Message --><small class="form-text text-danger">Valós adatokat használjon!</small>
+                <!-- End: The Error Message -->
+            </div>
+            <!-- Start: Error Example -->
+            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" required="">
+                <!-- Start: The Error Message --><small class="form-text text-danger">Valós adatokat használjon!</small>
+                <!-- End: The Error Message -->
+            </div>
+            <!-- End: Error Example -->
+            <div class="form-group"><label style="color: rgb(255,255,255);">Készülék típusa</label><select class="custom-select" required="" disabled=""><optgroup label="Okostelefonok"><option value="12" selected="">SATEL Model X</option><option value="13">SATEL Model S</option><option value="14">SATEL Model 1</option></optgroup></select></div>
+            <div
+                class="form-group"><label style="color: rgb(255,255,255);">Fizetés módja</label><select class="custom-select" required=""><optgroup label="Elérhető fizetési módok"><option value="12" selected="">PayPal utalás</option><option value="13">Előreutalás</option><option value="14">Utánvét</option></optgroup></select></div>
+    <div
+        class="form-group"><textarea class="form-control" name="message" placeholder="Futárszolgálatnak szánt üzenet" rows="14" minlength="10" style="margin-top: 45px;"></textarea></div>
+        <div class="form-group text-center"><button class="btn btn-primary btn-block" type="">Rendelés feladása</button></div>
+        </form>
         </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/script.min.js?h=87a98683d2d7c1551b198849b82b3c25"></script>
+        <!-- End: Contact Form Clean -->
+        <footer class="text-white d-flex d-xl-flex flex-column justify-content-center align-items-center align-content-center justify-content-xl-center align-items-xl-center" style="background: #343a40;height: 80px;width: 100%;position: absolute;/*bottom: 0;*/">
+            <div class="d-flex d-xl-flex flex-column justify-content-xl-center align-items-xl-center">
+                <p class="text-center" style="margin-bottom: 0;">Copyright ©<br></p>
+                <p class="text-center" style="margin-bottom: 0;">Szabó Máté 2021<br></p>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/script.min.js?h=87a98683d2d7c1551b198849b82b3c25"></script>
 </body>
 
 </html>
